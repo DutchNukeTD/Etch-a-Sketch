@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+    <div id="Header">Header</div>
+    <div id="Container">
+        <div id="ColorBoxes">
+            <div class="colorBox Red">Red</div>
+            <div class="colorBox Yellow">Yellow</div>
+            <div class="colorBox Green">Green</div>
+            <div class="colorBox Blue">Blue</div>
+            <div class="colorBox White">White</div>
+            <div class="colorBox Random">Random</div>
+            <div class="selectedColor">Selected Color</div>
+        </div>
+        <div id="SliderAndBoxes">
+            <div id="SliderAndIndicator">
+                <div id="Slider">
+                    <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+                    <p>Number of rows and columns: <span id="BoxIndicator"></span></p> 
+                </div>
+            </div>
+            <div id="PosContainer"></div>
+        </div>
+    </div>
+    <div id="Footer">Footer</div>
+    <script src="Etch-a-Sketch.js" defer></script>
+</body>
+</html>
